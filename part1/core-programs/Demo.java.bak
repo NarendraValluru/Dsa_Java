@@ -1,0 +1,14 @@
+public class Demo 
+{
+	 //int a=20;
+	public static void main(String[] args) 
+	{
+		byte a=10;
+		{
+			a=100;
+			System.out.println(a);
+		}
+		a=200;
+		System.out.println(a);
+	}
+}
